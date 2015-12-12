@@ -3,3 +3,15 @@ perl:
   - "5.22"
   - "5.20"
   - "5.18"
+
+install: "echo"
+
+branches:
+   only:
+	- master
+notifications:
+   recipients:
+    	- vasanth_kg@hotmail.com
+   email:
+   	 on_success: change
+    	on_failure: always
