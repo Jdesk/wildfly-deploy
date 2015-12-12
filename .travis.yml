@@ -4,9 +4,9 @@ perl:
 
 install: "echo"
 
-branches:
-   only:
-	- master
+#branches:
+#   only:
+#	- master
 notifications:
    recipients:
     	- vasanth_kg@hotmail.com
