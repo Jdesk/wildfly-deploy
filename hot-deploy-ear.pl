@@ -22,7 +22,7 @@ package deploy;
 
 use strict;
 use FindBin;
-use lib "$FindBin::Bin";
+use lib "$FindBin::Bin/lib";
 use LWP;
 #use LWP::UserAgent::ProgressBar;
 #use Term::ProgressBar;
